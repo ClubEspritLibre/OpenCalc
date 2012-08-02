@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int soustraction (int a, int b ){
- return a-b ;
+int substraction(int a, int b){
+	return a-b;
 }
 
 float product(int a, int b){
@@ -12,16 +12,13 @@ float division(int a, int b){
 	return a/b;
 }
 
-int main(int argc, char **argv){
-
-printf (" \n Welcome to OpenCalc \n ");
-int somme (int a,int b);
-{
-int s;
-s=a+b;
-return s;
+int sum (int a,int b){
+        return a+b;
 }
 
 
-return 0 ;
+int main(int argc, char **argv){
+
+	printf ("\nWelcome to OpenCalc\n");
+	return 0 ;
 }
