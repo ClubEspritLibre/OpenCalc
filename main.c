@@ -1,5 +1,11 @@
 #include<stdio.h>
+float division(int a, int b){
+	return a/b;
+}
 
+int sum (int a,int b){
+        return a+b;
+}
 int substraction(int a, int b){
 	return a-b;
 }
@@ -8,7 +14,8 @@ float product(int a, int b){
 	return a*b;
 }
 
-<<<<<<< HEAD
+int main(int argc, char **argv){
+
 float a,b,res ;
 int choice  ;
 printf (" \n Welcome to OpenCalc \n "); 
@@ -40,20 +47,10 @@ case 3 :
 default: 
 
 	printf("please enter a correct choice"); 
-=======
-float division(int a, int b){
-	return a/b;
-}
-
-int sum (int a,int b){
-        return a+b;
-}
->>>>>>> 638cab0fd6f9af9334165146d5ac0889136a1181
 
 
-int main(int argc, char **argv){
 
-	printf ("\nWelcome to OpenCalc\n");
+
 	return 0 ;
 }
 }
