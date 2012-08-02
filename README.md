@@ -1,4 +1,2 @@
 
-
-This is a calculator , simple with few useful fonctions 
-OpenSOURCE
+	This is a simple calculator, having few usefull fonctions.
